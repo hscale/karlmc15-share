@@ -1,19 +1,21 @@
-"repositories": [
-    {
-        "type": "package",
-        "package": {
-            "name": "hscale/karlmc15-share",
-            "version": "dev-master",
-            "source": {
-                "url": "git://github.com/hscale/karlmc15-share.git",
-                "type": "git",
-                "reference": "master"
-            },
-            "autoload": {
-                "psr-0" : {
-                    "hscale/karlmc15-share" : "src"
-                }
-            }
+{
+    "name": "hscale/karlmc15-share",
+    "description": "The Illuminate Database package.",
+    "license": "MIT",
+    "homepage": "https://laravel.com",
+    "support": {
+        "issues": "https://github.com/laravel/framework/issues",
+        "source": "https://github.com/laravel/framework"
+    },
+    "keywords": ["laravel", "database", "sql", "orm"],
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylor@laravel.com"
         }
-    }
-],
+    ],
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
